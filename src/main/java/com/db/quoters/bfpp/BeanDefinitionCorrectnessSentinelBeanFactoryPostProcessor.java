@@ -1,4 +1,4 @@
-package com.db.quoters.bpp;
+package com.db.quoters.bfpp;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanDefinition;

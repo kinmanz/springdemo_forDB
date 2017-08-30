@@ -13,9 +13,12 @@ public class ShakespeareQuoter implements Quoter {
     private int repeat;
 
     @Override
+    @Benchmark
+    @Transactional
     public void sayQuote() {
         for (int i = 0; i < repeat; i++) {
             System.out.println(message);
         }
+//        throw new RuntimeException();
     }
 }
